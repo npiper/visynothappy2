@@ -86,6 +86,26 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.declaration', {
+    url: '/page10',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/declaration.html',
+        controller: 'declarationCtrl'
+      }
+    }
+  })
+
+  .state('menu.confirmation', {
+    url: '/page12',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/confirmation.html',
+        controller: 'confirmationCtrl'
+      }
+    }
+  })
+
   .state('menu', {
     url: '/side-menu21',
     templateUrl: 'templates/menu.html',
